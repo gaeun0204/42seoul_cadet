@@ -1,38 +1,26 @@
 ## ft_printf
 Library의 printf 함수와 똑같이 동작하는 함수를 구현합니다.
 
-#### Program name
+#### 프로그램 이름
 - libftprintf.a
 
-#### Tune in files
+#### 제출할 파일
 - `*.c`, `*/*.c`, `*.h`, `*/*.h`, `Makefile`
 
-#### Makefile rules
+#### Makefile에 포함해야 하는 규칙
 - all, clean, fclean, re, bonus
 
-#### allowed functions
+#### 허용된 함수
 - malloc, free, write, va_start, va_arg, va_copy, va_end
 
-내용: ft_printf 함수를 포함하는 라이브러리를 작성하십시오.
+#### 세부 조건
+- ft_printf의 프로토타입은 `int ft_printf(const char *, …);` 이어야 합니다.
+- 라이브러리의 실제 printf 함수를 recode해야 합니다.
+- 원래의 printf 함수처럼 buffer 관리를 하면 안 됩니다.
+- 다음의 서식지정자들을 처리해야 합니다. : cspdiuxX%
+- 모든 서식지정자에서 '-0' 플래그, 폭, 정밀도의 조합을 처리해야 합니다.
+- man 3 printf / man 3 stdarg 을 참고하세요.
 
-과제의 세부 조건
-You have to recode the libc’s printf function
-
-☞ 라이브러리의 실제 함수를 다시 구성해야 함
-
-It must not do the buffer management like the real printf
-
-☞ 버퍼 관리는 하지 말아야 함
-
-It will manage the following conversions: cspdiuxX%
-
-☞ 다음 문자를 처리해야함 : cspdiuxX%
-
-It will manage any combination of the following flags: ’-0.*’ and minimum field
-
-☞ '-0.*' 플래그의 조합을 관리해야 함
-
-man 3 printf / man 3 stdarg
 
 **구성** : %[플래그(flag)][폭(width)][.정밀도][크기(length)]서식 문자(specifier)
 
