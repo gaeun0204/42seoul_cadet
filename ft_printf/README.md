@@ -20,4 +20,4 @@ malloc, free, write, va_start, va_arg, va_copy, va_end
 - 추가적인 내용은 man 3 printf / man 3 stdarg 을 참고
 
 #### 📌 printf 함수 구조
-👉 `%[플래그(flag)][폭(width)][.정밀도][크기(length)]서식 문자(specifier)`
+`%[플래그(flag)][폭(width)][.정밀도][크기(length)]서식 문자(specifier)`
