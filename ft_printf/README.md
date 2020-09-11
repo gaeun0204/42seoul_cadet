@@ -1,5 +1,35 @@
-## ft_printf
-Library의 printf함수와 똑같이 동작하는 함수를 구현한다.
+# ft_printf
+Library의 printf 함수와 똑같이 동작하는 함수를 구현한다.
+
+## Program name
+libftprintf.a
+
+있어야 할 파일: ✽*.c,* ✽/✽.c, ✽.h, ✽/✽.h
+
+Makefile의 규칙: all, clean, fclean, re, bonus
+
+허용된 함수: malloc, free, write, va_start, va_arg, va_copy, va_end
+
+내용: ft_printf 함수를 포함하는 라이브러리를 작성하십시오.
+
+과제의 세부 조건
+You have to recode the libc’s printf function
+
+☞ 라이브러리의 실제 함수를 다시 구성해야 함
+
+It must not do the buffer management like the real printf
+
+☞ 버퍼 관리는 하지 말아야 함
+
+It will manage the following conversions: cspdiuxX%
+
+☞ 다음 문자를 처리해야함 : cspdiuxX%
+
+It will manage any combination of the following flags: ’-0.*’ and minimum field
+
+☞ '-0.*' 플래그의 조합을 관리해야 함
+
+man 3 printf / man 3 stdarg
 
 **구성** : %[플래그(flag)][폭(width)][.정밀도][크기(length)]서식 문자(specifier)
 
