@@ -12,11 +12,11 @@ malloc, free, write, va_start, va_arg, va_copy, va_end
 #### ◾ Makefile에 포함해야 하는 규칙
 all, clean, fclean, re, bonus
 #### ◾ 세부 조건
-- ft_printf의 프로토타입은 `int ft_printf(const char *, …);` 이어야 한다.
+- ft_printf의 프로토타입은 `int ft_printf(const char *, …);` 으로 한다.
 - 라이브러리의 실제 printf 함수를 recode 해야 한다.
 - 원래의 printf 함수처럼 buffer를 관리하면 안 된다.
-- 다음의 서식문자들을 사용할 수 있어야 한다. : `cspdiuxX%`
-- 모든 서식문자에서 `-0`플래그, 폭, 정밀도의 조합을 처리해야 한다.
+- 서식문자 `cspdiuxX%` 를 사용할 수 있어야 한다. 
+- 모든 서식문자에서 `-0`플래그, 폭, 정밀도의 조합을 관리해야 한다.
 - 추가적인 내용은 man 3 printf / man 3 stdarg 을 참고
 
 #### 📌 printf 함수 구조
