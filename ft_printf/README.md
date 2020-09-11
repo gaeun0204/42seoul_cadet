@@ -1,7 +1,7 @@
 ## ft_printf
 Library의 printf 함수와 동일하게 동작하는 함수를 구현하기
 
-#### 프로그램 이름
+#### 🔸프로그램 이름
 `libftprintf.a`
 #### 제출할 파일
 `*.c`, `*/*.c`, `*.h`, `*/*.h`, `Makefile`
