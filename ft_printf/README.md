@@ -17,7 +17,7 @@ malloc, free, write, va_start, va_arg, va_copy, va_end
 - 원래의 printf 함수처럼 buffer를 관리하면 안 된다.
 - 다음의 서식문자들을 사용할 수 있어야 한다. : `cspdiuxX%`
 - 모든 서식문자에서 `-0`플래그, 폭, 정밀도의 조합을 처리해야 한다.
-- 추가적인 내용은 man 3 printf / man 3 stdarg 을 참고한다.
+- 추가적인 내용은 man 3 printf / man 3 stdarg 을 참고
 
-#### 📌 printf 함수 구조
-`%[플래그(flag)][폭(width)][.정밀도][크기(length)]서식 문자(specifier)`
+#### ◾ printf 함수 구조
+👉 `%[플래그(flag)][폭(width)][.정밀도][크기(length)]서식 문자(specifier)`
