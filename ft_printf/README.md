@@ -21,3 +21,8 @@ all, clean, fclean, re, bonus
 
 #### 📌 printf 함수 구조
 >%[플래그(flag)][폭(width)][.정밀도][크기(length)]서식문자(specifier)
+
+#### 🛠 테스트 툴
+- https://github.com/Mazoise/42TESTERS-PRINTF
+- https://github.com/charMstr/printf_lover_v2
+- https://github.com/cclaude42/PFT_2019
