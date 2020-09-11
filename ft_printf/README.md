@@ -5,11 +5,13 @@ Library의 printf 함수와 똑같이 동작하는 함수를 구현한다.
 - libftprintf.a
 
 #### Tune in files
-- ✽.c, ✽/✽.c, ✽.h, ✽/✽.h
+- `*.c`, `*/*.c`, `*.h`, `*/*.h`, `Makefile`
 
-Makefile의 규칙: all, clean, fclean, re, bonus
+#### Makefile rules
+- all, clean, fclean, re, bonus
 
-허용된 함수: malloc, free, write, va_start, va_arg, va_copy, va_end
+#### allowed functions
+- malloc, free, write, va_start, va_arg, va_copy, va_end
 
 내용: ft_printf 함수를 포함하는 라이브러리를 작성하십시오.
 
