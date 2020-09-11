@@ -1,8 +1,8 @@
-# ft_printf
+## ft_printf
 Library의 printf 함수와 똑같이 동작하는 함수를 구현한다.
 
-## Program name
-libftprintf.a
+### Program name
+#### libftprintf.a
 
 있어야 할 파일: ✽*.c,* ✽/✽.c, ✽.h, ✽/✽.h
 
