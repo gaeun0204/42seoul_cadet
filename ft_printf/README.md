@@ -1,5 +1,5 @@
 ## ft_printf
-Library의 printf 함수와 똑같이 동작하는 함수를 구현한다.
+Library의 printf 함수와 똑같이 동작하는 함수를 구현합니다.
 
 #### Program name
 - libftprintf.a
