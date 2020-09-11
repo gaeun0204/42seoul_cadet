@@ -1,4 +1,5 @@
-## printf 함수
+## ft_printf
+Library의 printf함수와 똑같이 동작하는 함수를 구현한다.
 
 **구성** : %[플래그(flag)][폭(width)][.정밀도][크기(length)]서식 문자(specifier)
 
