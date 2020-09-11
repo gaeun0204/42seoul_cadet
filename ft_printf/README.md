@@ -2,9 +2,9 @@
 Library의 printf 함수와 동일하게 동작하는 함수를 구현하기
 
 #### ◾ 프로그램 이름
-  `libftprintf.a`
+`libftprintf.a`
 #### ◾ 제출할 파일
-  `*.c`, `*/*.c`, `*.h`, `*/*.h`, `Makefile`
+`*.c`, `*/*.c`, `*.h`, `*/*.h`, `Makefile`
 #### ◾ Makefile에 포함해야 하는 규칙
 all, clean, fclean, re, bonus
 #### ◾ 허용된 함수
