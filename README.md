@@ -1,1 +1,1 @@
-# 42seoul_public
+# 42seoul_cadet
