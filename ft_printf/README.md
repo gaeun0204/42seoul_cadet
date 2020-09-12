@@ -27,5 +27,5 @@ all, clean, fclean, re, bonus, $(NAME)
 - https://github.com/charMstr/printf_lover_v2
 - https://github.com/cclaude42/PFT_2019
 
-#### ❗ 주의사항
+#### ❗주의사항
 >코드 작성 및 채점은 **맥OS**를 기준으로 한다. 따라서 윈도우나 리눅스에서 작동 시, 일부 결과가 다르게 나올 수 있다.
