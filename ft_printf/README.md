@@ -10,7 +10,7 @@ malloc, free, write, va_start, va_arg, va_copy, va_end
 #### ◻ Return 값
 출력된 바이트 수 (\n, \t, \b, 공백과 같은 문자 포함)
 #### ◻ Makefile에 포함해야 하는 규칙
-all, clean, fclean, re, bonus
+all, clean, fclean, re, bonus, $(NAME)
 #### ◻ 세부 조건
 - ft_printf의 프로토타입은 `int ft_printf(const char *, …);` 으로 한다.
 - 라이브러리의 실제 printf 함수를 recode 해야 한다.
@@ -28,4 +28,4 @@ all, clean, fclean, re, bonus
 - https://github.com/cclaude42/PFT_2019
 
 #### ❗ 주의사항
-코드 작성 및 채점은 **맥OS**를 기준으로 한다. 따라서 윈도우나 리눅스에서 작동 시 일부 결과가 다르게 나올 수 있다.
+>코드 작성 및 채점은 **맥OS**를 기준으로 한다. 따라서 윈도우나 리눅스에서 작동 시, 일부 결과가 다르게 나올 수 있다.
